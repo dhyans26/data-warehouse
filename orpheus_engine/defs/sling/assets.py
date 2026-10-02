@@ -4276,7 +4276,7 @@ club_shop_replication_config = {
     },
 
     "streams": {
-        "public.__clubs_migrations": None,
+        "public.__clubs_migrations": {"disabled": True},
         "public.airtable_sync_state": None,
         "public.ambassadors": None,
         "public.app_settings": None,
@@ -4311,7 +4311,7 @@ club_shop_replication_config = {
         "public.hcb_transactions": None,
         "public.help_faqs": None,
         "public.leaders": None,
-        "public.login_codes": None,
+        "public.login_codes": {"disabled": True},
         "public.members": None,
         "public.order_grants": None,
         "public.order_items": None,
@@ -4319,7 +4319,7 @@ club_shop_replication_config = {
         "public.outbox": None,
         "public.review_templates": None,
         "public.role_invites": None,
-        "public.sessions": None,
+        "public.sessions": {"disabled": True},
         "public.ship_drafts": None,
         "public.shipments": None,
         "public.ships": None,
